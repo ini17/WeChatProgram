@@ -1,0 +1,32 @@
+
+<navbar page-name="活动说明"></navbar>
+<view class="Scroll-container">
+  <view class="content-all" bindtouchstart="scrollTouchstart" bindtouchmove="scrollTouchmove" bindtouchend="scrollTouchend"
+    style="margin-top: {{margintop}}px">
+    <view class="page-content" scroll-y="true">
+      <image src="../../images/guitar_act1.jpg" class="act_pict"></image>
+      <view class="title">
+        吉他社社团活动
+      </view>
+      <view class="details">
+        <view class="time">
+          开始时间：2020年9月3日 8:00PM
+        </view>
+        <view class="address">
+          天山堂
+        </view>
+      </view>
+      <view class="article">
+        言语说不出的美、吉他表白；岁月刻不出沧桑、吉他低吟。让我们一次偶遇，成就追风少年阳光的梦想，吉他社特向全校同学发出邀请，欢迎加入音乐世界。尽管你什么都还不会，只要你有一颗爱音乐、爱学习的心，即可加入
+      </view>
+    </view>
+  </view>
+</view>
+<view class="bot">
+  <view class="collet">
+    收藏
+  </view>
+  <view class="signup">
+    报名参加
+  </view>
+</view>

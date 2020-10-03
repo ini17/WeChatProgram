@@ -1,0 +1,53 @@
+<!--miniprogram/pages/page1/page1.wxml-->
+<image src='../../images/bgp.jpg' class="bgp"></image>
+
+<!-- <scroll-view scroll-y="true" style="height: 2000px">
+    <view style="background: red; width: 100px; height: 100px" ></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+</scroll-view>
+
+<view class='container'>
+  <view class='text'>
+    微信学院
+  </view>
+</view> -->
+
+<view class="Scroll-container">
+  <view class="content-all" bindtouchstart="scrollTouchstart" bindtouchmove="scrollTouchmove" bindtouchend="scrollTouchend"
+    style="margin-top: {{margintop}}px">
+    <view class='text'>
+      微信学院
+    </view>
+    <view class='container'>
+      <view class='tips'>
+        往期活动
+      </view>
+      <view class='divLine'></view>
+      <view class='action'>
+        <view class="wenzi guitar" bindtap="jumpTo">
+          <view class='character'>
+            吉他社活动
+          </view>
+          <view class="description">
+            2020年9月3日
+          </view>
+        </view>
+        <image src="../../images/guitar.jpg" class="actpict"></image>
+      </view>
+      <view class='divLine'></view>
+      <view class='action'>
+        <view class="wenzi">
+          <view class='character'>
+            排球社活动
+          </view>
+          <view class="description">
+            2020年8月16日
+          </view>
+        </view>
+        <image src="../../images/volleyball.jpg" class="actpict"></image>
+      </view>
+    </view>
+  </view>
+</view>

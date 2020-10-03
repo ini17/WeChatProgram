@@ -1,0 +1,87 @@
+/* miniprogram/pages/page1/page1.wxss */
+
+page {
+  margin-top: 200rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.bgp{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.text{
+  /* margin-top: 40rpx;
+  height: 140rpx;
+  width: 100%;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 300ms ease; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 80rpx;
+  color: white;
+}
+
+.container{
+  margin-top: 10%;
+  width: 94%;
+  margin-left: 3%;
+  background: #f6f6f6;
+  border-radius: 10rpx;
+}
+
+.tips{
+  width: 100%;
+  flex-flow: row;
+  text-align: left;
+  padding-left: 40rpx;
+  margin: 15rpx;
+  color: gray;
+  font-size: small;
+}
+
+.divLine{
+  background: gray;
+  width: 95%;
+  height: 1rpx;
+}
+
+.action{
+  margin: 20rpx;
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.wenzi{
+  float: left;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+
+.description{
+  color: gray;
+  font-size: small;
+}
+
+.actpict{
+  margin-right: 40rpx;
+  float: right;
+  width: 20%;
+  height: 150rpx;
+}
