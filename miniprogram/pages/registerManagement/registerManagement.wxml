@@ -11,8 +11,10 @@
     <swiper-item>
       <view class="act">
         <image src="../../images/guitar_act1.jpg" class="act_pict"></image>
-        <view class="changeInfo">修改信息</view>
-        <ss-icon name="right" class="right"></ss-icon>
+        <view class="char">
+          <view class="changeInfo">修改信息</view>
+          <ss-icon name="right" class="right" size="50rpx"></ss-icon>
+        </view>
       </view>
     </swiper-item>
     <swiper-item>
@@ -21,8 +23,10 @@
     <swiper-item>
       <view class="act">
         <image src="../../images/guitar.jpg" class="act_pict"></image>
-        <view class="changeInfo">活动评价</view>
-        <ss-icon name="right" class="right"></ss-icon>
+        <view class="char">
+          <view class="changeInfo">活动评价</view>
+          <ss-icon name="right" class="right" size="50rpx"></ss-icon>
+        </view>
       </view>
     </swiper-item>
   </swiper>
