@@ -1,0 +1,29 @@
+<!--pages/registerManagemen/registerManagemen.wxml-->
+<view class="page">
+<!--顶部导航栏-->
+  <view class="swiper-tab">
+    <view class="tab-item {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">即将开始</view>
+    <view class="tab-item {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">活动中</view>
+    <view class="tab-item {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">活动结束</view>
+  </view>
+  <!--内容主体-->
+  <swiper class="swiper" current="{{currentTab}}" duration="200" bindchange="swiperChange">
+    <swiper-item>
+      <view class="act">
+        <image src="../../images/guitar_act1.jpg" class="act_pict"></image>
+        <view class="changeInfo">修改信息</view>
+        <ss-icon name="right" class="right"></ss-icon>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view>我是tab2</view>
+    </swiper-item>
+    <swiper-item>
+      <view class="act">
+        <image src="../../images/guitar.jpg" class="act_pict"></image>
+        <view class="changeInfo">活动评价</view>
+        <ss-icon name="right" class="right"></ss-icon>
+      </view>
+    </swiper-item>
+  </swiper>
+</view>

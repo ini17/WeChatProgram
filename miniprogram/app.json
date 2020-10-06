@@ -1,40 +1,38 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/userConsole/userConsole",
-    "pages/storageConsole/storageConsole",
-    "pages/databaseGuide/databaseGuide",
-    "pages/addFunction/addFunction",
-    "pages/deployFunctions/deployFunctions",
-    "pages/chooseLib/chooseLib",
-    "pages/openapi/openapi",
-    "pages/page1/page1",
-    "pages/guitar/guitar"
+    
+    "pages/activity/activity",
+    "pages/mine/mine",
+    "pages/sign/sign",
+    "pages/guitar/guitar",
+    "pages/registerManagement/registerManagement",
+    "pages/myFavorite/myFavorite",
+    "pages/badminton/badminton",
+    "pages/volleyball/volleyball"
   ],
-  "window": {
-    "backgroundColor": "#F6F6F6",
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
-    "navigationBarTextStyle": "black",
-    "navigationStyle": "custom"
-  },
-  "usingComponents": {
-    "ss-icon": "/components/icon/icon",
-    "navbar": "/components/navbar/navbar"
-  },
-  "sitemapLocation": "sitemap.json",
   "tabBar": {
-    "color": "#666666",
+    "color": "#000000",
+    "selectedColor": "#000000",
     "list": [
       {
-        "pagePath": "pages/index/index",
-        "text": "首页"
+        "text": "活动",
+        "pagePath": "pages/activity/activity",
+        "iconPath": "images/activity.png",
+        "selectedIconPath": "images/activity-selected.png"
       },
       {
-        "pagePath": "pages/page1/page1",
-        "text": "活动"
+        "text": "我的",
+        "pagePath": "pages/mine/mine",
+        "iconPath": "images/mine.png",
+        "selectedIconPath": "images/mine-selected.png"
       }
     ]
-  }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#57C4F1",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
 }

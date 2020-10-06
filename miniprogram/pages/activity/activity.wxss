@@ -1,0 +1,85 @@
+/* miniprogram/pages/page1/page1.wxss */
+
+page {
+  margin-top: 90rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.bgp{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 65rpx;
+  color: white;
+  margin-bottom: 10%;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 3%;
+  background: #f6f6f6;
+  border-radius: 15rpx;
+  padding:0rpx;
+  background-color: white;
+}
+
+.tips{
+  width: 100%;
+  flex-flow: row;
+  text-align: left;
+  padding-left: 40rpx;
+  margin: 15rpx;
+  color: gray;
+  font-size: small;
+}
+
+.divLine{
+  background: gray;
+  width: 95%;
+  height: 1rpx;
+}
+
+.action{
+  margin: 20rpx;
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.wenzi{
+  float: left;
+  width: 70%;
+  text-align: left;
+  margin-left: 20rpx;
+}
+
+.description{
+  color: gray;
+  font-size: small;
+}
+
+.actpict{
+  margin-right: 40rpx;
+  float: right;
+  width: 20%;
+  height: 150rpx;
+}
+.character{
+  margin-bottom: 20rpx;
+}

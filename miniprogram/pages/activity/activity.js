@@ -1,28 +1,21 @@
-// miniprogram/pages/page1/page1.js
-const App = getApp();
-
+// pages/activity/activity.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    isFavorite: "false",
+    starty: 0,
+    endy: 0,
+    margintop: 0,
+    inputValue: 0
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var that = this;
-    wx.getStorage({
-      key: 'collect',
-      success: function(res){
-        that.setData({
-          isFavorite: res.data
-        })
-      }
-    })
+
   },
 
   /**
@@ -101,51 +94,20 @@ Page({
       margintop: 0
     })
   },
-  sign:function(){
+  jumpTo: function(e){
     wx.navigateTo({
-      url: '../sign/sign',
+      url: '../guitar/guitar',
     })
   },
-  data: {
-    isFavorite: "false",
-
-
+  jumpTo_badminton: function(e){
+    wx.navigateTo({
+      url: '../badminton/badminton',
+    })
   },
-collect_fun:function(){
-  var that = this;
-      var isFavorite = that.data.isFavorite;
-      //收藏
-      if (isFavorite == 'false') {
-        var roomId = that.data.roomId;
-          that.setData({
-            isFavorite:'true'
-          })
-          wx.showToast({
-            title: '收藏成功',
-            icon: 'none'
-          })
-          wx.setStorage({
-            data: 'true',
-            key: 'collect',
-          })
-      } 
-      //取消收藏
-      else if(isFavorite == 'true') {
-        var roomId = that.data.roomId;
-          that.setData({
-            isFavorite: 'false'
-          })
-          wx.showToast({
-            title: '取消成功',
-            icon: 'none'
-          })
-          wx.setStorage({
-            data: 'false',
-            key: 'collect',
-          })
-      }
-},
-
+  jumpTo_volleyball: function(e){
+    wx.navigateTo({
+      url: '../volleyball/volleyball',
+    })
+  }
+  
 })
-
-

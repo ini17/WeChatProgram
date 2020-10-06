@@ -14,15 +14,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var that = this;
-    wx.getStorage({
-      key: 'collect',
-      success: function(res){
-        that.setData({
-          isFavorite: res.data
-        })
-      }
-    })
+
   },
 
   /**
@@ -108,8 +100,6 @@ Page({
   },
   data: {
     isFavorite: "false",
-
-
   },
 collect_fun:function(){
   var that = this;
@@ -124,10 +114,6 @@ collect_fun:function(){
             title: '收藏成功',
             icon: 'none'
           })
-          wx.setStorage({
-            data: 'true',
-            key: 'collect',
-          })
       } 
       //取消收藏
       else if(isFavorite == 'true') {
@@ -138,10 +124,6 @@ collect_fun:function(){
           wx.showToast({
             title: '取消成功',
             icon: 'none'
-          })
-          wx.setStorage({
-            data: 'false',
-            key: 'collect',
           })
       }
 },

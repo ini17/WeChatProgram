@@ -1,0 +1,68 @@
+<!--pages/activity/activity.wxml-->
+<!--miniprogram/pages/page1/page1.wxml-->
+<image src='../../images/picture_2.jpg' class="bgp"></image>
+
+<view class="Scroll-container">
+  <view class="content-all" bindtouchstart="scrollTouchstart" bindtouchmove="scrollTouchmove" bindtouchend="scrollTouchend"
+    style="margin-top: {{margintop}}px">
+    <view class='text'>
+      兰社
+    </view>
+    <view class='container'>
+      <view class='tips'>
+        即将开始
+        <view class='divLine'></view>
+      </view>
+      <view class='action'>
+        <view class="wenzi guitar" bindtap="jumpTo">
+          <view class='character'>
+            吉他社活动
+          </view>
+          <view class="description">
+            开始时间：2020年10月30日
+          </view>
+          <view class="description">
+            地点：天山堂
+          </view>
+        </view>
+        <image src="../../images/guitar.jpg" class="actpict"></image>
+      </view>
+    </view>
+
+    <view class='container'>
+      <view class='tips' >
+        往期活动
+        <view class='divLine'></view>
+      </view>
+      <view class='action'>
+        <view class="wenzi badminton" bindtap="jumpTo_badminton">
+          <view class='character'>
+            羽协活动
+          </view>
+          <view class="description">
+            开始时间：2020年10月3日
+          </view>
+          <view class="description">
+            地点：穹顶
+          </view>
+        </view>
+        <image src="../../images/badminton.jpg" class="actpict"></image>
+      </view>
+      <view class='divLine'></view>
+      <view class='action'>
+        <view class="wenzi volleyball" bindtap="jumpTo_volleyball">
+          <view class='character'>
+            排球社活动
+          </view>
+          <view class="description">
+            开始时间：2020年8月16日
+          </view>
+          <view class="description">
+            地点：西区排球场
+          </view>
+        </view>
+        <image src="../../images/volleyball.jpg" class="actpict"></image>
+      </view>
+    </view>
+  </view>
+</view>

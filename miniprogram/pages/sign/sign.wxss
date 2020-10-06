@@ -1,0 +1,76 @@
+/* pages/sign/sign.wxss */
+/* pages/personal.wxss */
+.addBtn{
+  margin-top: 40rpx;
+}
+.container_1{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+  padding: 30rpx 0;
+  margin: 15px 20px 15px 15px;
+}
+.title{
+  display: flex;
+  align-items: left;
+  font-size: 50rpx;
+  font-weight: 600;
+  color:black;
+}
+.title{
+  margin-bottom: 30rpx;
+}
+.mini{
+  align-items: left;
+  color: gray;
+  font-size: small;
+  height: 70rpx;
+}
+
+.weui-cell_input{
+  width: 100%;
+  height: 70rpx;
+}
+
+.weui-cell_hd{
+  height: 100%;
+  width: 100%;
+}
+
+.weui-label, .weui-input{
+  padding-top: 18rpx;
+}
+
+.divLine{
+  background:#E1E1E2;
+  width: 100%;
+  height: 0.8px;
+  margin: 10px 20px 0px 0px;
+}
+
+.btn{
+  display: flex;
+  width: 100%;
+  height: 70rpx;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 120rpx;
+}
+
+.weui-btn{
+  background-color: #57C6F3;
+  width: 100%;
+  height: 100%;
+  padding-top: 7rpx;
+  color: white;
+}
+/* .text{
+  position: fixed;
+} */
+
+.lastDiv{
+  margin-top: 22rpx;
+}

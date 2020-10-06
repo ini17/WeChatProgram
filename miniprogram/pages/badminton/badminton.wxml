@@ -1,0 +1,45 @@
+<!--pages/badminton/badminton.wxml-->
+
+<navbar page-name="活动说明"></navbar>
+<view class="Scroll-container">
+  <view class="content-all" bindtouchstart="scrollTouchstart" bindtouchmove="scrollTouchmove" bindtouchend="scrollTouchend"
+    style="margin-top: {{margintop}}px">
+    <view class="page-content" scroll-y="true">
+      <image src="../../images/badminton.jpg" class="act_pict"></image>
+      <view class="title">
+        羽协活动
+      </view>
+      <view class="details">
+        <view class="time">
+          开始时间：2020年10月3日 8:00PM
+        </view>
+        <view class="address">
+          地点：穹顶
+        </view>
+      </view>
+      <view class="article">
+      <view>为了活跃学校课余体育文化生活，增强学生体质，羽协决定举办全校大学生羽毛球赛，具体方案如下：</view>
+      <view>一、参赛对象</view>
+      <view>全体兰大学生</view>
+      <view>二、比赛时间</view>
+      <view>10月3日8：00-12：00 14：00-16：00</view>
+      <view>三、比赛形式</view>
+      <view>采用男子、女子单打和双打的形式</view>
+      <view>四、比赛规则</view>
+      <view>每场比赛采11球制，获胜一方在接下来的一局比赛中率先发球；</view>
+      <view>（1）第一轮：淘汰赛。</view>
+      <view>（2）第二轮：淘汰赛的获胜者按照抽签的方式决定单打顺序。本轮比赛决出单打前两名选手。</view>
+      <view>（3）第三轮：第二轮输的两个选手进行单打，决出第三名；前两名选手进行单打，决出冠、亚军。</view>
+      <view>（4）双打比赛：采取3局2胜制，每局采用11分制。</view>
+      <view> 五、比赛要求</view>
+      <view>服从裁判安排，坚持友谊第一、比赛第二的原则，赛出水平，促进交流，增进团结，锻炼身体。</view>
+      <view>六、比赛奖励</view>
+      <view>单打表彰前三名同学，双打表扬第一名，颁发相应奖品。</view> 
+      </view>
+    </view>
+  </view>
+</view>
+<view class="bot">
+  <view  class='collect' bindtap='collect_fun'>{{isFavorite=='false'?'收藏':'已收藏'}}</view>
+  <view class="past">已过期</view>
+</view>

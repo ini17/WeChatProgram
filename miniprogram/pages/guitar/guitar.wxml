@@ -10,10 +10,10 @@
       </view>
       <view class="details">
         <view class="time">
-          开始时间：2020年9月3日 8:00PM
+          开始时间：2020年10月30日 8:00PM
         </view>
         <view class="address">
-          天山堂
+          地点：天山堂
         </view>
       </view>
       <view class="article">
@@ -23,10 +23,12 @@
   </view>
 </view>
 <view class="bot">
-  <view class="collet">
-    收藏
+  <!--<view class='collect' bindtap="collect_fun">
+    <view>收藏</view>
   </view>
-  <view class="signup">
-    报名参加
+-->
+<view class='collect' bindtap='collect_fun'>{{isFavorite=='false'?'收藏':'已收藏'}}</view>
+  <view class="signup" bindtap="sign">
+    报名
   </view>
 </view>

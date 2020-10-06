@@ -1,0 +1,15 @@
+<!--pages/myFavorite/myFavorite.wxml-->
+<view class='action'>
+    <view class="wenzi guitar" bindtap="jumpTo">
+          <view class='character'>
+            吉他社活动
+          </view>
+          <view class="description">
+            开始时间：2020年9月3日
+          </view>
+          <view class="description">
+            地点：天山堂
+          </view>
+    </view>
+          <image src="../../images/guitar.jpg" class="actpict"></image>
+</view>

@@ -1,0 +1,27 @@
+/* pages/myFavorite/myFavorite.wxss */
+
+.action{
+  margin: 20rpx;
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.wenzi{
+  float: left;
+  width: 70%;
+  text-align: left;
+  margin: auto;
+}
+.description{
+  color: gray;
+  font-size: small;
+}
+
+.actpict{
+  margin-right: 40rpx;
+  float: right;
+  width: 20%;
+  height: 150rpx;
+}

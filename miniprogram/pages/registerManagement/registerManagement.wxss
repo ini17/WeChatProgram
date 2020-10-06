@@ -1,0 +1,45 @@
+/* pages/registerManagemen/registerManagemen.wxss */
+.page {
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+}
+.swiper-tab {
+  display: flex;
+  flex-direction: row;
+  line-height: 80rpx;
+  border-bottom: 2rpx solid #777;
+}
+.tab-item {
+  width: 33.3%;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 550;
+  color: #777;
+} 
+.swiper {
+  margin-top: 10rpx;
+  height: 1100px;
+  background: #dfdfdf;
+}
+
+.act{
+  width: 100%;
+  height: 24.5%;
+  border-radius: 20rpx;
+  background-color: white;
+}
+
+.act_pict{
+  width: 100%;
+  border-radius: 20rpx 20rpx 0 0;
+}
+
+.changeInfo{
+  float: left;
+  margin-left: 5%;
+}
+
+.right{
+  float: right;
+  margin-right: 5%;
+}
